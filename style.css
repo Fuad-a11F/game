@@ -294,7 +294,7 @@ main, footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
-    max-height: 520px;
+    min-height: 320px;
 }
 
 .process__gallery  a {
@@ -1050,8 +1050,8 @@ main, footer {
     .project__gallery {
         grid-column-gap: 6px;
         grid-template-columns: 1fr 1fr;
-
     }
+
     .phrase__row {
         margin-left: 10px;
     }
@@ -1074,6 +1074,7 @@ main, footer {
     .contact__info {
         margin-left: 0;
     }
+    
 }
 
 @media (max-width: 700px) {
